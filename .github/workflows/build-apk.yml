@@ -35,6 +35,7 @@ jobs:
         with:
     accept-android-sdk-licenses: true
     log-accepted-android-sdk-licenses: false
+    packages: ''
 
       - name: Installer les composants Android
         run: sdkmanager 'platforms;android-35' 'build-tools;35.0.0'
